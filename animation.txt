@@ -1,0 +1,54 @@
+var tl=gsap.timeline();
+
+tl.from(".navbar .logo,.navbar ul,.nav-btn button",{
+    y:-100,
+    duration:0.7,
+    opacity:0,
+    stagger:0.3
+});
+
+tl.from("#head h1,#head h3,#head button",{
+    y:150,
+    duration:0.6,
+    opacity:0,
+    delay:0.3,
+    stagger:0.5
+})
+
+tl.from(".service-card",{
+    y:-150,
+    duration:0.7,
+    opacity:0,
+    stagger:0.5,
+    scrollTrigger:{
+        trigger:".service-card",
+        scroller:"container",
+        markers:true,
+        start:"top 70%"
+    }
+})
+
+tl.from(".left h1,.left li",{
+    x:-300,
+    opacity:0,
+    duration:0.7,
+    stagger:0.3,
+    scrollTrigger:{
+        trigger:".left h1,.left li",
+        scroller:"body",
+        markers:true,
+        start:"top 70%"
+    }
+})
+
+tl.from(".right-body",{
+    x:200,
+    opacity:0,
+    duration:0.7,
+    scrollTrigger:{
+        trigger:".right-body",
+        scroller:"body",
+        markers:true,
+        start:"top 50%"
+    }
+})

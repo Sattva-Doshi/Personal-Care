@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dairy.css">
+    <title>My Professional Diary</title>
+</head>
+
+<body>
+   <div class="container">
+    <header>
+        <h1>My Professional Diary</h1>
+    </header>
+    <main>
+        <section id="entry-form">
+            <h2>Add New Entry</h2>
+            <form id="diaryForm">
+                <label for="entryTitle">Title:</label>
+                <input type="text" id="entryTitle" required>
+                <label for="entryDate">Date:</label>
+                <input type="date" id="entryDate" required>
+                <label for="entryContent">Content:</label>
+                <textarea id="entryContent" rows="4" required></textarea>
+                <button type="button" onclick="addEntry()">Add Entry</button>
+            </form>
+        </section>
+        <section id="entry-list">
+        </section>
+    </main>
+   </div>
+    <script src="dairy.js"></script>
+
+</body>
+
+</html>
+

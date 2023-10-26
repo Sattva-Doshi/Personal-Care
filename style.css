@@ -1,0 +1,267 @@
+*{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 100vh;
+    width: 99vw;
+    background-color: #24246a;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    padding-top: 22px;
+}
+
+.navbar a{
+    margin: 13px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.3em;
+}
+
+.navbar ul{
+    margin-left: 20vw;
+}
+
+.navbar select{
+    background-color: transparent;
+    color: white;
+    font-size: 1.1em;
+    border: none;
+    width: 100px;
+    cursor: pointer;
+}
+
+.opt{
+    color: black;
+    cursor: pointer;
+}
+
+.navbar a:hover{
+    background-color: white;
+    color: #000044;
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 6px 11px;
+}
+
+.nav-btn button{
+    background-color: transparent;
+    width: 8vw;
+    height: 6vh;
+    margin-right: 10px;
+    color: white;
+    border-radius: 20px;
+    border: 2px solid white;
+    font-size: 1.1em;
+}
+
+.nav-btn button:nth-child(2){
+    background-color: chocolate;
+    border: none;
+}
+
+#head{
+    margin-top: 22vh;
+    color: white;
+    text-align: center;
+}
+
+#head a{
+    text-decoration: none;
+    color: white;
+}
+
+#head h1{
+    font-size: 4.3em;
+}
+
+#head h3{
+    font-size: 1.5em;
+    opacity: 0.7;
+    margin-top: 2vh;
+}
+
+#head button{
+    margin-top: 5vh;
+    height: 8vh;
+    width: 12vw;
+    font-size: 1.1em;
+    background-color: chocolate;
+    border-radius: 20px;
+    border: none;
+    color: white;
+}
+
+#head button:hover{
+    cursor: pointer;
+    background-color: transparent;
+    color: chocolate;
+    border: 2px solid chocolate;
+    font-weight: bold;
+}
+
+.heading{
+    text-align: center;
+    color: white;
+    font-size: 2.5em;
+}
+.service-card{
+    margin-top: 25vh;
+    border: 2px solid chocolate;
+    border-radius: 16px;
+    color: black;
+    text-align: center;
+    width: 18vw;
+    height: 40vh;
+}
+
+.service-card h2{
+    height: 7vh;
+    padding-top: 12px;
+    background-color: chocolate;
+    color: white;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+}
+
+.service-card i{
+    font-size: 4em;
+    color: white;
+    margin: 45px;
+}
+
+.service-card p{
+    color: white;
+    background-color: chocolate;
+    height: 9vh;
+    padding-top: 15px;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+.services{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 70px;
+}
+
+.left h1{
+    color: white;
+    font-size: 2.8em;
+    margin: 24px 0px;
+}
+
+.left li{
+    color: white;
+    font-size: 1.2em;
+    margin: 16px;
+    opacity: 0.8;
+}
+
+.left span{
+    color: chocolate;
+}
+
+.right-body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid chocolate;
+    color: white;
+    height: 490px;
+    width: 290px;
+    border-radius: 10px;
+    margin-top: 29px;
+    width: 20vw;
+}
+
+.right-body h2{
+    font-size: 1.8em;
+    background-color: chocolate;
+    padding: 20px;
+    margin: 26px;
+    text-align: center;
+    font-weight: bolder;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.right-body h3{
+    font-size: 1em;
+}
+
+.input{
+    margin-bottom: 32px;
+    width: 240px;
+    height: 78px;
+    text-align: center;
+    border-radius: 9px;
+    border: 1px solid black;
+}
+
+.right-body button{
+    width: 240px;
+    height: 78px;
+    text-align: center;
+    background-color: chocolate;
+    border-radius: 9px;
+    cursor: pointer;
+    margin-bottom: 19px;
+    border: none;
+    font-size: 0.96em;
+}
+
+.right-body button:hover{
+    background-color: white;
+    color: chocolate;
+    border: 2px solid chocolate;
+}
+
+footer{
+    display: flex;
+    margin-top: 100px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.social-link{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;  
+}
+
+footer p{
+    padding: 14px 0;
+}
+
+footer li{
+    list-style: none;
+    padding: 7px 0;
+    margin-top: 7px;
+    cursor: pointer;
+}
+
+.foot{
+    margin-top: 97px;
+    text-align: center;
+    padding: 25px;
+    background-color: #9b9a9a;
+}
+
+
+  
